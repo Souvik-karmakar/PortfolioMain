@@ -1,0 +1,308 @@
+
+
+
+        body{
+            margin:0;
+        }
+        /*.....Navigation Section......*/
+        nav{
+           background-color: cadetblue;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .logo, .menu{
+            display:inline-block;
+        }
+        .logo{
+           
+            margin:20px;
+        }
+        .menu{
+            
+            float: right;
+            margin:20px;
+        }
+       
+        .menu ul{
+            list-style: none;
+            padding-left:0px;
+            margin:0;
+        }
+        .menu ul li{
+            display: inline-block;
+            margin-right:20px;
+        }
+        .menu ul li a{
+            text-decoration: none;
+
+            padding:20px 10px 20px 10px;
+        }
+        .menu ul li a:hover{
+            background-color: crimson;
+            color: white;
+            transition: all 0.5s ease;
+        }
+/*.....Header  Section......*/
+header{
+    background-image: url('img/4.jpg');
+    height:500px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header p{
+    margin: 0;
+    color:cornsilk
+}
+header h1{
+    color: red;
+
+}
+.Title-container{
+    text-align: center;
+    padding-top: 100px;
+}
+.Title-container a{
+    background-color: rgb(103, 216, 38);
+    display:inline-block;
+    padding:10px 25px;
+    color: cornsilk;
+    margin:15px 10px;
+    font-weight:bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.Title-container a:hover{
+    background-color: red;
+    color: rgb(233, 241, 228);
+    transition: all 0.5s ease;
+}
+
+/*.....About Me Section......*/
+
+.about-me{
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.about-me:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-me h2{
+    color: rgb(46, 20, 20);
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    color:red;
+}
+
+.about-me .col-left, .about-me .col-right{
+    width: 50%;
+    float: left;
+}
+
+  
+.about-me .col-left img {
+    max-width: 80%;
+    max-height: 30%;
+    
+    
+}
+.about-me .col-right  h4{
+    color: blue;
+}
+
+
+/*.....skills Section......*/
+
+.my-skills{
+    background-color: #e2e2e2;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-skills h2{
+    text-transform: uppercase;
+    color:red;
+}
+.my-skills:after{
+    content:'';
+    display:block;
+    clear:both;
+
+}
+.my-skills .skills-left ,.my-skills .skills-center,.my-skills .skills-right{
+    width:33.333333333%;
+    display:inline-block;
+    float: left;
+   
+}
+.my-skills .skills-left h4,.my-skills .skills-center h4,.my-skills .skills-right h4{
+    color: blue;
+}
+/*.....Project Section......*/
+
+.my-projects{
+    background-color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.my-projects:after{
+    display:block;
+    content:'';
+    clear: both;
+
+}
+.my-projects h2{
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    position: relative;
+    color: red;
+}
+.my-projects .project1,.my-projects .project2,.my-projects .project3{
+    height:300px;
+    width:30%;
+    float: left;
+    position:relative;
+    overflow: hidden;
+}
+.my-projects .project1{
+    margin-left:  2%;
+    margin-right: 1.5%;
+    background-image: url(img/3.jpg);
+    background-size: cover;
+}
+.my-projects .project2{
+    margin-left:  1%;
+    margin-right: 1%;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+}
+.my-projects .project3{
+    margin-left:  1.5%;
+    margin-right: 2%;
+    background-image: url(img/project.jpg);
+    background-size: cover;
+}
+.my-projects .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 310px;
+
+}
+.my-projects .overlay:hover{
+    padding-top: 130px;
+    transition: all 0.5s ease;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.overlay a{
+    display: inline-block;
+    font-size:18px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*.....contact Section......*/
+.contact-section{
+    text-align: center;
+    background-color: #e2e2e2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact-section:after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.contact-section h2{
+    color: red;
+}
+
+
+.social-container{
+    width:80%;
+    margin:0 auto;
+    text-align: left;
+}
+.social-container ion-icon{
+    float: left;
+    margin-top: 17px;
+    margin-right: 20px;
+    font-size: 24px;
+    color:rgb(64, 47, 218);
+}
+.col-1 p ,.col-2 p, .col-3 p{
+    display: inline-block;
+
+}
+.col-1 , .col-2, .col-3{
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+
+}
+.col-3 p{
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.text-bold{
+    color:rgb(89, 115, 233);
+    font-weight: bold;
+}
+/*.....Footer Section......*/
+
+footer{
+    background-color: #777777;
+    color:#333;
+    padding:20px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+footer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.footer-text{
+    float:left;
+}
+.social{
+    float:right;
+    margin-top: 12px;
+
+}
+.social ion-icon{
+    font-size: 25px;
+   
+    padding:10px 10px;
+}
+.social a:visited{
+    color:#333;
+}
+.social ion-icon:hover{
+    color:#fff;
+    background-color: #333;
+    transition:all 0.5s ease;
+}
+.footer-text p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
